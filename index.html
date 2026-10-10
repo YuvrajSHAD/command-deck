@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1110">
+  <meta name="description" content="A beginner-friendly reference to useful Linux and networking commands.">
+  <title>Command Deck | Cybersecurity Command Reference</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Command Deck home">
+      <span class="brand-mark" aria-hidden="true">&gt;_</span>
+      <span>COMMAND<span class="brand-accent">DECK</span></span>
+    </a>
+    <span class="header-label"><span class="status-dot" aria-hidden="true"></span> BEGINNER FIELD GUIDE</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow"><span aria-hidden="true">///</span> YOUR TERMINAL, DEMYSTIFIED</p>
+      <h1 id="page-title">Small commands.<br><span>Big confidence.</span></h1>
+      <p class="hero-copy">A friendly field guide to everyday Linux and networking commands. Find one, understand it, then try it in a safe environment.</p>
+
+      <label class="search-box" for="command-search">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.7"></circle>
+          <path d="m16 16 4.2 4.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"></path>
+        </svg>
+        <input id="command-search" type="search" placeholder="Search commands, categories, or descriptions..." autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+    </section>
+
+    <section class="reference" aria-labelledby="commands-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE QUICK REFERENCE</p>
+          <h2 id="commands-heading">Command library</h2>
+        </div>
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+      </div>
+
+      <nav id="category-filters" class="category-filters" aria-label="Filter commands by category"></nav>
+      <div id="command-list" class="command-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>No commands match that search. Try another word or choose a different category.</p>
+    </section>
+
+    <aside class="safety-note" aria-labelledby="safety-heading">
+      <span class="safety-icon" aria-hidden="true">!</span>
+      <div>
+        <h2 id="safety-heading">A quick safety check</h2>
+        <p>Understand what a command does before you run it. Examples here are for learning; practice in a trusted environment and only access systems you own or have permission to use.</p>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <span>COMMAND DECK <span aria-hidden="true">/</span> LEARN AT YOUR OWN PACE</span>
+    <span>NO COMMANDS RUN HERE. JUST KNOWLEDGE.</span>
+  </footer>
+</body>
+</html>
